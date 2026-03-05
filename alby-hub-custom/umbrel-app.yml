@@ -1,0 +1,19 @@
+manifestVersion: 1
+id: alby-hub-custom
+category: bitcoin
+name: Alby Hub Custom
+version: "latest"
+tagline: Ma seconde instance d'Alby Hub (manuelle)
+description: >-
+  Raccourci vers mon instance Alby Hub custom lancée via Docker.
+  Elle pointe vers le port 8081 sans installer de nouveau container.
+developer: Moi
+website: https://getalby.com
+dependencies: [bitcoin, lightning]
+repo: https://github.com/getalby/hub
+support: https://github.com/getalby/hub/issues
+port: 8081  # Le port externe que tu as mappé (ex. 8081)
+gallery: []  # Optionnel : Ajoute des URLs d'images si tu veux
+path: ""  # Laisse vide car pas de sous-chemin
+defaultUsername: ""  # Optionnel
+defaultPassword: ""  # Optionnel
